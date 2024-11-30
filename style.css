@@ -1,0 +1,113 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}  
+
+#main {
+    display: flex;
+    background-image: url("data_center_main_photo.jpg");
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    position: absolute;
+    gap: 40px;
+}
+
+#title-container {
+    border-color: rgb(11, 24, 47);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(201, 215, 238);
+    width: fit-content;
+    height: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 0;
+}
+
+#title-container:hover {
+    background-color: rgb(136, 164, 209);
+}
+ 
+h1 {
+    color: rgb(26, 50, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+#data_center_general {
+    color: rgb(93, 48, 26);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 37px;
+    order: 1;
+}
+
+#text-container {
+    border-color: rgb(11, 24, 47);
+    border-width: 4px;
+    border-style: solid;
+    background-color: rgb(239, 232, 216);
+    width: fit-content;
+    height: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 450px;
+    margin-left: 450px;
+    border-radius: 30px;
+    
+}
+
+ul {
+    padding-left: 20px;  /* Adjust this value as needed */
+    margin: 0;           /* Remove any default margins */
+    list-style-position: inside; /* Align bullets with text */
+}
+
+li {
+    margin: 5px 0;       /* Reduce vertical spacing between list items */
+}
+
+#data_center_general ul {
+    display: inline-block;  /* Prevents the list from stretching across the container */
+    text-align: left;        /* Aligns bullets to the left within the centered block */
+    padding-left: 5px;      /* Adjusts bullet indentation */
+    margin: 0;               /* Removes any default margins */
+}
+
+#button-container {
+    border-color: rgb(11, 24, 47);
+    border-width: 4px;
+    border-style: solid;
+    background-color: rgb(232, 214, 192);
+    width: fit-content;
+    height: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 830px;
+    margin-right: 940px;
+    margin-top: 230px;
+    border-radius: 80px;
+}
+
+#click-me {
+    color: rgb(26, 50, 93);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#button-container:hover {
+    background-color: rgb(209, 188, 136);
+}
